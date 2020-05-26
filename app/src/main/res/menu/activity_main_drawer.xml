@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="အားလုံး"
+            />
+        <item
+            android:id="@+id/nav_goal"
+            android:icon="@drawable/ic_assistant_photo_black_24dp"
+            android:title="ရည္မွန္းခ်က္" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_favorite_border_black_24dp"
+            android:title="အျကိုက္ဆံုးအစားစာ" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="အေျကာင္းအရာာ" />
+        <item
+            android:id="@+id/nav_use"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="အသံုးျပုပံု" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="မ်ွေ၀ရန္" />
+    </group>
+
+
+
+</menu>

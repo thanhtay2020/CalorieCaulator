@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragement_layout"
+    tools:context=".Button_All_Fragment">
+
+    <Button
+        android:id="@+id/weightup"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="ကိုုယ္အေလးခ်ိန္တိုးပါမည္။" />
+
+    <Button
+        android:id="@+id/weightstable"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="ကိုုယ္အေလးခ်ိန္ထိန္းပါမည္။"
+        />
+
+    <Button
+        android:id="@+id/weightdown"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="ကိုုယ္အေလးခ်ိန္ေလ်ာ့ပါမည္။"
+        />
+
+</LinearLayout>
